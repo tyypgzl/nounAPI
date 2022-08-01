@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "b80a883f-f113-4324-8dcb-7bc99eb3c3ae",
+		"name": "Noun",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16985865"
+	},
+	"item": [
+		{
+			"name": "NOUN",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "NOUN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/noun/generate?count=2&firstLetter=a&lastLetter=b&lenght=5&syllableLenght=3&comparison=equals",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"noun",
+						"generate"
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "2"
+						},
+						{
+							"key": "firstLetter",
+							"value": "a"
+						},
+						{
+							"key": "lastLetter",
+							"value": "b"
+						},
+						{
+							"key": "lenght",
+							"value": "5"
+						},
+						{
+							"key": "syllableLenght",
+							"value": "3"
+						},
+						{
+							"key": "comparison",
+							"value": "equals"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
